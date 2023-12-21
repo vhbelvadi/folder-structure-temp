@@ -1,0 +1,18 @@
+title: Photography
+template: photography/single
+layout: layout
+taxonomies:
+  - photography
+revisions: false
+route: 'photography/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+structure:
+  root: false
+  slugs: true

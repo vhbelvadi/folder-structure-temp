@@ -1,0 +1,17 @@
+title: Essays
+template: essays/single
+layout: layout
+taxonomies:
+  - tags
+revisions: false
+route: '{slug}'
+date: true
+sort_dir: desc
+default_status: draft
+date_behavior:
+  past: public
+  future: unlisted
+preview_targets:
+  -
+    label: 'Read essay'
+    url: '{permalink}'

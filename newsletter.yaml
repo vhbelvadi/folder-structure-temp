@@ -1,0 +1,16 @@
+title: Newsletter
+template: newsletter/single
+layout: layout
+revisions: false
+route: '/newsletter/{slug}'
+date: true
+sort_dir: desc
+default_status: draft
+date_behavior:
+  past: public
+  future: unlisted
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true
